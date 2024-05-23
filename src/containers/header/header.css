@@ -40,9 +40,8 @@
 }
 
 .header-content__input input {
-    flex: 2;
-    width: 100%;
-    min-height: 50px;
+    flex: 3;
+    width: 60%;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
@@ -82,7 +81,7 @@
 .header-content__people {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
 
@@ -105,7 +104,8 @@
 }
 
 .header-image {
-    width:100%;
+    width: max-content;
+    height: max-content;
    margin: 1rem auto 0;
    position: relative;
     justify-content: center;
@@ -116,13 +116,15 @@
         width: 100%;
         .video{
             border-radius: 10rem;
+            width: 1000px;
         }
 
     }
     .plane{
         position: absolute;
-        width: 100%;
-        top: -10%
+        width: 800px;
+        height: 550px;
+        right: 0px;
     }
 }
 

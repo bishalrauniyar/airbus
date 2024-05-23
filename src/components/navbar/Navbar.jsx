@@ -10,25 +10,26 @@ Modal.setAppElement('#root');
 
 const customStyles = {
   content: {
+    backgroundColor: '#042c54',
     top: '50%',
     left: '50%',
     right: 'auto',
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
+    borderRadius: '20px',
+
   },
 };
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
-  const [showSignInModal, setShowSignInModal] = useState(false);
-  const [showSignUpModal, setShowSignUpModal] = useState(false);
+  const [modalType, setModalType] = useState('');
   const [user, setUser] = useState(null);
 
   const handleSignIn = (userData) => {
     setUser(userData);
-    setShowSignInModal(false);
+    setModalType('SIGN_IN');
   };
 
   const handleSignOut = () => {
@@ -44,38 +45,49 @@ const Navbar = () => {
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
           <p><a href="#wgpt3">Features</a></p>
-          <p><a href="#possibility">3D Model</a></p>
-          <p><a href="#features">Image Detection</a></p>
+          <div className="dropdown">
+            <p className="dropbtn">Damage Detection</p>
+            <div className="dropdown-content">
+              <a href="#home">Option 1</a>
+              <a href="#home">Option 2</a>
+              <a href="#home">Option 3</a>
+            </div>
+          </div>
+
+          {/* <p><a href="#detection">Damage Detection</a></p> */}
+          <p><a href="#features">3D model</a></p>
           <p><a href="#blog">Contact us</a></p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">
 
-        <button type="button" onClick={() => setShowSignInModal(true)}>Sign In</button>
-        <button type="button" onClick={() => setShowSignUpModal(true)}>Sign Up</button>
+        <button type="button" onClick={() => setModalType('SIGN_IN')}>Sign In</button>
+        <button type="button" onClick={() => setModalType('SIGN_UP')}>Sign Up</button>
         <Modal
-          isOpen={showSignInModal}
-          onRequestClose={() => setShowSignInModal(false)}
-          contentLabel="Sign In Modal"
-          className="modal-content"
-          overlayClassName="modal-overlay"
+          isOpen={modalType === 'SIGN_IN' || modalType === 'SIGN_UP'}
+          onRequestClose={() => setModalType('')}
+          contentLabel="User Authentication"
           style={customStyles}
-
         >
-          <SignIn onSignIn={handleSignIn} />
-          <button type="button" onClick={() => setShowSignInModal(false)} className="close">Close</button>
-        </Modal>
-        <Modal
-          isOpen={showSignUpModal}
-          onRequestClose={() => setShowSignUpModal(false)}
-          contentLabel="Sign Up Modal"
-          className="modal-content"
-          overlayClassName="modal-overlay"
-          style={customStyles}
-
-        >
-          <SignUp />
-          <button type="button" onClick={() => setShowSignUpModal(false)} className="close">Close</button>
+          {modalType === 'SIGN_IN' && <SignIn onSignIn={handleSignIn} />}
+          {modalType === 'SIGN_UP' && <SignUp />}
+          <button
+            type="button"
+            onClick={() => setModalType('')}
+            className="close"
+            style={{
+              display: 'block',
+              margin: '10px auto',
+              textAlign: 'center',
+              padding: '10px 20px',
+              backgroundColor: '#f44336',
+              color: 'white',
+              border: 'none',
+              borderRadius: '5px',
+              cursor: 'pointer',
+            }}
+          >Close
+          </button>
         </Modal>
         {user && (
         <div className="user">
@@ -99,14 +111,14 @@ const Navbar = () => {
             <p><a href="#blog">Contact us</a></p>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
-            <button type="button" onClick={() => setShowSignUpModal(true)}>Sign In</button>
+            <button type="button" onClick={() => setModalType('SIGN_IN')}>Sign In</button>
             <button type="button" onClick={handleSignOut}>Sign Up</button>
-            {(showSignUpModal || showSignUpModal) && (
+            {modalType !== '' && (
             <div className="modal">
               <div className="modal-content">
-                <span className="close" onClick={() => { setShowSignUpModal(false); setShowSignUpModal(false); }}>&times;</span>
-                {showSignUpModal && <SignIn onSignIn={handleSignIn} />}
-                {showSignUpModal && <SignUp />}
+                <span className="close" onClick={() => { setModalType(''); }}>&times;</span>
+                {modalType === 'SIGN_IN' && <SignIn onSignIn={handleSignIn} />}
+                {modalType === 'SIGN_UP' && <SignUp />}
               </div>
             </div>
             )}

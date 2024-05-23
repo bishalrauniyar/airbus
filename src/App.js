@@ -1,11 +1,13 @@
 import React from 'react';
 
-import { Footer, Blog, Possibility, WhatGPT3, Header } from './containers';
-import { CTA, Navbar } from './components';
+import { Footer, Possibility, WhatGPT3, Header } from './containers';
+import Navbar from './components/navbar/Navbar';
 
 import './App.css';
 import Damage from './containers/damageAssesment/Damage';
 import Contact from './containers/contactUs/ContactUs';
+import VideoDetection from './containers/videoDetection /VideoDetection';
+import CnnModal from './containers/cnnModal/CnnModal';
 
 const App = () => (
   <div className="App">
@@ -14,12 +16,17 @@ const App = () => (
       <Header />
     </div>
     <WhatGPT3 />
+    <CnnModal />
     <Damage />
+    <VideoDetection />
     <Contact />
     <Possibility />
-    <CTA />
-    <Blog />
+    {/* <CTA />
+    <Blog /> */}
     <Footer />
+    <div className="chatbot">
+      <iframe src="https://al-yx.github.io/chatbot/" width="100%" height="500px" title="chatbot" />
+    </div>
   </div>
 );
 
