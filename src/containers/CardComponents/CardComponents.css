@@ -8,10 +8,11 @@
   }
   
   .card {
-    background-color: white;
+    /* background-color: white;  */
     height: 450px;
     color: black;
     border-radius: 1rem;
+    padding: 0 0.8rem;
   }
   
   .images-container {
@@ -37,6 +38,9 @@
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
   }
   
   .read-more-btn {

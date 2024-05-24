@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 import Damage from '../../containers/damageAssesment/Damage';
 import Contact from '../../containers/contactUs/ContactUs';
@@ -12,8 +12,8 @@ import Navbar from '../navbar/Navbar';
 import './landingPage.css';
 
 function LandingPage() {
-  const navigate = useNavigate();
-  navigate('/modelViewer');
+  // const navigate = useNavigate();
+  // navigate('/modelViewer');
 
   return (
     <div className="App">

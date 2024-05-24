@@ -4,7 +4,7 @@ import TestingImageCNN from '../../assets/TestingImageCNN.jpeg';
 import TestingImageResultCNN from '../../assets/TestingImageResultCNN.jpeg';
 
 const CnnModal = () => (
-  <div className="damageHeader">
+  <div className="damageHeader" id="detection">
     <h1 className="gradient__text" style={{ textAlign: 'center' }}>Airplane Damage Detection Model using CNN</h1>
     <div className="embed-container" id="detection">
       <div className="image-container">

@@ -45,18 +45,9 @@ const Navbar = () => {
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
           <p><a href="#wgpt3">Features</a></p>
-          <div className="dropdown">
-            <p className="dropbtn">Damage Detection</p>
-            <div className="dropdown-content">
-              <a href="#home">Option 1</a>
-              <a href="#home">Option 2</a>
-              <a href="#home">Option 3</a>
-            </div>
-          </div>
-
-          {/* <p><a href="#detection">Damage Detection</a></p> */}
-          <p><a href="#features">3D model</a></p>
-          <p><a href="#blog">Contact us</a></p>
+          <p><a href="#detection">Damage Detection</a></p>
+          <p><a href="#possibility">3D model</a></p>
+          <p><a href="#contact-us">Contact us</a></p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">

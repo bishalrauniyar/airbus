@@ -114,17 +114,30 @@
 
     .videoDiv{
         width: 100%;
-        .video{
-            border-radius: 10rem;
-            width: 1000px;
-        }
-
     }
+
+    .video{
+        border-radius: 10rem;
+        width: 1000px;
+    }
+
     .plane{
         position: absolute;
         width: 800px;
         height: 550px;
         right: 0px;
+    }
+
+    @media screen and (max-width: 490px) {
+        .video{
+            border-radius: 2rem;
+            width: 375px;
+        }
+        .plane{
+            position: absolute;
+            width: 350px;
+            height: 250px;
+        }
     }
 }
 
@@ -180,4 +193,8 @@
         font-size: 12px;
         line-height: 16px;
     }
+}
+
+.input {
+    width: 30rem;
 }
