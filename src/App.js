@@ -6,13 +6,11 @@ import {
 } from 'react-router-dom';
 
 import LandingPage from './components/landingPage';
-// import ModelViewer from './components/modelViewer';
 
 const App = () => (
   <Router>
     <div>
       <Routes>
-        {/* <Route path="/modelViewer" element={<ModelViewer />} /> */}
         <Route path="/" element={<LandingPage />} />
       </Routes>
     </div>

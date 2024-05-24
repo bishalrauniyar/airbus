@@ -2,18 +2,16 @@ import React from 'react';
 import './footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import CardComponents from '../CardComponents/CardComponents';
 
 const Footer = () => {
   const stayInTouch = 'Lets stay in touch';
   return (
     <div className="gpt3__footer section__padding">
       <div className="gpt3__footer-heading">
-        <h1 className="gradient__text">Do you want to step in to the future before others</h1>
+        <h1 className="gradient__text">Explore Airbus 3D models</h1>
       </div>
-
-      <div className="gpt3__footer-btn">
-        <p>Request Early Access</p>
-      </div>
+      <CardComponents />
 
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links_logo">
@@ -30,18 +28,22 @@ const Footer = () => {
           <h4>Company</h4>
           <p>Terms & Conditions </p>
           <p>Privacy Policy</p>
-          <p>Contact</p>
+          <p>Contact Us</p>
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Get in touch</h4>
-          <p>Crechterwoord K12 182 DK Alknjkcb</p>
-          <p>085-132567</p>
-          <p>info@payme.net</p>
+          <p>About us</p>
+          <p>Airbus SE
+            1 Rond-Point Maurice Bellonte
+            31707 Blagnac Cedex
+            France
+          </p>
+          <p>Brand Centre</p>
         </div>
       </div>
 
       <div className="gpt3__footer-copyright">
-        <p>@2021 GPT-3. All rights reserved.</p>
+        <p>@2024 Airbus. All rights reserved.</p>
       </div>
     </div>
   );

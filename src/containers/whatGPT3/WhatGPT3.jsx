@@ -6,7 +6,11 @@ import './whatGPT3.css';
 const WhatGPT3 = () => (
   <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
     <div className="gpt3__whatgpt3-feature">
-      <Feature title="What are we doing?" text="We have deve comprehensive web application to address aircraft maintenance issues by detecting and assessing surface damage and identifying faulty wires in harnesses. Our product leverages advanced image detection using CNN and machine learning algorithms to identify wire faults, and assess damage severity. Additionally, it utilizes CAD 3D modeling for precise fault detettion. Our AI based software provides a comprehensive solution for aircraft repair and maintainance." />
+      <Feature
+        title="What are we doing?"
+        text="
+We have developed a comprehensive web application to address aircraft maintenance issues by detecting and assessing surface damage and identifying faulty wires in harnesses. Our product leverages advanced image detection using CNN and machine learning algorithms to identify wire faults and assess damage severity. Additionally, it utilizes CAD 3D modeling for precise fault detection. Our AI-based software provides a comprehensive solution for aircraft repair and maintenance."
+      />
     </div>
     <div className="gpt3__whatgpt3-heading">
       <h1 className="gradient__text">Fly Safe, Fly Airbus.</h1>

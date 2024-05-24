@@ -5,7 +5,7 @@ import TestingImageResultCNN from '../../assets/TestingImageResultCNN.jpeg';
 
 const CnnModal = () => (
   <div className="damageHeader">
-    <h1 className="gradient__text">YOLOv8 Based Airplane Video Analysis and Damage Detection Model</h1>
+    <h1 className="gradient__text" style={{ textAlign: 'center' }}>Airplane Damage Detection Model using CNN</h1>
     <div className="embed-container" id="detection">
       <div className="image-container">
         <a href="https://cnnbaseddamagedectionmodel.streamlit.app/">

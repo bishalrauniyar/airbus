@@ -13,6 +13,16 @@ const Possibility = () => (
       <p> Our model revolutionizes repair procedures by visualizing the shortest path to damage locations in 3D model of the plane</p>
       <h4>Employing advanced algorithm Dijkstras&apos;s algorithm.
       </h4>
+      <div className="model-btn-container">
+        <div className="model-btn">
+          <a href="https://shortest-path-airplane.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <p>Shortest Path</p>
+          </a>
+        </div>
+        <div className="model-btn">
+          <p>Visulaize 3D model</p>
+        </div>
+      </div>
     </div>
   </div>
 );
