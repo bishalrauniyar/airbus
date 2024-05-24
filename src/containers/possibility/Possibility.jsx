@@ -1,17 +1,18 @@
 import React from 'react';
-import possibilityImage from '../../assets/possibility.png';
+import Planemodel from '../../assets/Planemodel.png';
 import './possibility.css';
 
 const Possibility = () => (
   <div className="gpt3__possibility section__padding" id="possibility">
     <div className="gpt3__possibility-image">
-      <img src={possibilityImage} alt="possibility" />
+      <img src={Planemodel} alt="possibility" />
     </div>
     <div className="gpt3__possibility-content">
-      <h4>Request Early Access to Get Started</h4>
-      <h1 className="gradient__text">The possibilities are <br /> beyond your imagination</h1>
-      <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-      <h4>Request Early Access to Get Started</h4>
+      <h4>Visualize and Navigate Maintenance Efficiently</h4>
+      <h1 className="gradient__text">3D CAD Visualization <br /> for Efficient Damage Repair</h1>
+      <p> Our model revolutionizes repair procedures by visualizing the shortest path to damage locations in 3D model of the plane</p>
+      <h4>Employing advanced algorithm Dijkstras&apos;s algorithm.
+      </h4>
     </div>
   </div>
 );
