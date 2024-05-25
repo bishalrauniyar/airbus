@@ -83,8 +83,8 @@ https://github.com/bishalrauniyar/demo-check/assets/160076333/1d49c88a-7911-4623
   - We're are open to enhancements & bug-fixes.
   - Feel free to add issues and submit patches.
   ## Authors and Roles
-  - Bishal Kumar Rauniyar(Lead) - https://github.com/bishalrauniyar
-  - Rishabh Sharma - https://github.com/AdityaDargan](https://github.com/redhairrs)
-  - Paras Jain - https://github.com/AKSRathor
-  - Shruti Kumari - https://github.com/Abhin4vKumar
+  - Bishal Kumar Rauniyar(Lead) - [https://github.com/bishalrauniyar](https://github.com/bishalrauniyar)
+  - Rishabh Sharma -[https://github.com/redhairrs](https://github.com/redhairrs)
+  - Paras Jain - [https://github.com/AKSRathor](https://github.com/SeineAle)
+  - Shruti Kumari - [https://github.com/Abhin4vKumar](https://github.com/al-yx)
     <img width="1440" alt="Screenshot 2024-05-25 at 5 17 13 AM" src="https://github.com/bishalrauniyar/demo-check/assets/160076333/99aac337-0e70-476a-9547-6a8521cccd25">
