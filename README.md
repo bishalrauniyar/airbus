@@ -1,23 +1,8 @@
 ## Airbus Aerothon 6.0 (BY TEAM 8848)
 
-<a href = "https://youtu.be/55oDDagXtnc" target="_blank">Full Working Video</a>
-<br/>
+<a href = "https://github.com/al-yx/airbus">Full Working Video</a>
 
 https://github.com/bishalrauniyar/demo-check/assets/160076333/67681540-b298-4781-a5d1-5507811732d7
-
-
-<h1 align="center">Airbus Aerothon/h1>
-<h3 align="center">The Dual Risks of Faulty Wiring and Structural Damage in Aircraft<h3>
-  
-
-<div align="center">
-  
-  [![made-with-react](https://img.shields.io/badge/React-2.1.5-brightgreen.svg?style=for-the-badge)](https://github.com/facebook/create-react-app)
-   [![](https://img.shields.io/badge/-Ethereum-lightgrey.svg?style=for-the-badge)](https://www.ethereum.org/)
-    ![](https://img.shields.io/badge/Smart%20-Contract-lightgrey.svg?style=for-the-badge)
-  
- </div>
-
 
 
 ## Problem Statement -
@@ -65,26 +50,20 @@ https://github.com/bishalrauniyar/demo-check/assets/160076333/1d49c88a-7911-4623
 ## RealTime Image/Video Damage Processing in Aircraft from External Source
 <img width="1440" alt="Screenshot 2024-05-25 at 5 08 50 AM" src="https://github.com/bishalrauniyar/demo-check/assets/160076333/2728740e-6c2f-4424-888c-1d7953d59b74">
 
-# CAD section By Paras
+# CAD 3D Projection for Shortest Path
 
-## How to Use by shruti
 
-### Login
-- There are two ways to login
-  - Login as User
-  - Login as Employee
+https://github.com/al-yx/airbus/assets/160076333/ff1963b7-bd39-4217-8ccd-cda5b4e570d0
 
-<br>
- - Upon First Signup Metamask will ask permission to connect your wallet with App.
- 
-   
+
+
   -------------------------------------
   ## Contributing
   - We're are open to enhancements & bug-fixes.
   - Feel free to add issues and submit patches.
   ## Authors and Roles
-  - Bishal Kumar Rauniyar(Lead) - [https://github.com/bishalrauniyar](https://github.com/bishalrauniyar)
-  - Rishabh Sharma -[https://github.com/redhairrs](https://github.com/redhairrs)
-  - Paras Jain - [https://github.com/AKSRathor](https://github.com/SeineAle)
-  - Shruti Kumari - [https://github.com/Abhin4vKumar](https://github.com/al-yx)
+  - Bishal Kumar Rauniyar(Lead) - https://github.com/bishalrauniyar
+  - Rishabh Sharma - https://github.com/redhairrs
+  - Paras Jain - https://github.com/SeineAle/shortest-path
+  - Shruti Kumari - https://github.com/al-yx
     <img width="1440" alt="Screenshot 2024-05-25 at 5 17 13 AM" src="https://github.com/bishalrauniyar/demo-check/assets/160076333/99aac337-0e70-476a-9547-6a8521cccd25">
