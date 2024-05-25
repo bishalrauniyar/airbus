@@ -1,9 +1,7 @@
 ## Airbus Aerothon 6.0 (BY TEAM 8848)
 
 <a href = "https://youtu.be/55oDDagXtnc" target="_blank">Full Working Video</a>
-<br/>
-<a href = "https://bhartiya-kanoon.vercel.app/" target="_blank">Github</a>
-
+<br>
 https://github.com/bishalrauniyar/demo-check/assets/160076333/67681540-b298-4781-a5d1-5507811732d7
 
 <h1 align="center">Airbus Aerothon/h1>
